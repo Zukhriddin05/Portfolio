@@ -1,0 +1,117 @@
+.contact {
+    margin-top: 100px;
+
+    &__first-link {
+        font-size: 40px;
+        color: #00E4E4;
+        border-right: 2px solid #fff;
+        padding-right: 10px;
+        background: #000;
+        transition: 0.3s;
+        margin-left: 0;
+        z-index: 99;
+        
+        &:hover{
+            color: #fff;
+        }
+
+        &:hover+.contact__box-title {
+            transform: translateX(-15%);
+            opacity: 0;
+        }
+    }
+
+    &__box-title {
+        transition: 0.3s;
+    }
+
+    &__first-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: #00E4E4;
+        text-transform: uppercase;
+    }
+
+    &__first-txt {
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 5%;
+    }
+
+    &__box-div {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    &__box-first {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    &__box {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        column-gap: 231px;
+    }
+
+    &__sec-input {
+        outline: none;
+        border: 4px solid #00E4E4;
+        background: transparent;
+        width: 400px;
+        padding: 17px;
+        color: #A5A5A5;
+        font-size: 18px;
+        text-transform: capitalize;
+        border-radius: 15px;
+    }
+
+    .btn-input {
+        width: 820px;
+        // height: 150px;
+        resize: none;
+    }
+    
+    &__box-second{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    &__button{
+        padding: 20px 130px;
+        background: #00E4E4;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        font-size: 22px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    &__button-box{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-top: 20px;
+    }
+    
+    &__line{
+        margin-top: 80px;
+        border: 1px solid #333333;
+    }
+    
+    &__title{
+        font-size: 16px;
+        color: #fff;
+        margin-top: 30px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+    }
+}

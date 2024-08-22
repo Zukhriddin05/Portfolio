@@ -1,0 +1,69 @@
+.nav{
+    &__logo{
+        width: 64px;
+        height: 49px;
+        animation: img infinite alternate-reverse 2s ease;
+
+        @keyframes img {
+            from{
+                transform: rotateY(0deg);
+            }to{
+                transform: rotateY(360deg);
+            }
+        }
+    }
+
+    &__link{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        transition: 0.4s;
+
+        &:hover{
+            color: #00E4E4;
+        }
+    }
+
+    &__main-link{
+        padding: 15px 25px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 500;
+        background: #00E4E4;
+        border-radius: 15px;
+        z-index: 999 !important;
+        position: relative;
+        overflow: hidden;
+
+        &::before{
+            position: absolute;
+            content: '';
+            width: 0%;
+            height: 100%;
+            background: #fff;
+            transition: 0.4s, border-radius 0s;
+            top: 0;
+            left: 0;
+            border-radius: 15px !important;
+            z-index: -1;
+        }
+
+        &:hover::before{
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    & .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+}

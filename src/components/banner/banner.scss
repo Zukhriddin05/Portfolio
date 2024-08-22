@@ -1,0 +1,141 @@
+.wrapper{
+    overflow-x: hidden;
+}
+.banner {
+    margin-top: 50px;
+
+    &__title-s {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: 2px;
+        padding-left: 210px;
+        padding-top: 80px;
+        animation: titles 1.5s;
+
+        @keyframes titles {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__title-l {
+        font-weight: 700;
+        font-size: 110px;
+        color: #fff;
+        letter-spacing: 4px;
+        padding-left: 40px;
+        white-space: nowrap;
+        animation: titlel 2.5s;
+
+        @keyframes titlel {
+            from {
+                margin-left: -100%;
+            }
+
+            to {
+                margin-left: 0;
+            }
+        }
+    }
+
+    &__box-first {
+        position: absolute;
+    }
+
+    &__box-second {
+        position: relative;
+        top: -80px;
+        text-align: center;
+    }
+
+    &__box-img {
+        width: 635px;
+        height: 700px;
+        animation: animateimg 3s;
+
+        @keyframes animateimg {
+            0% {
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            60% {
+                opacity: 0;
+            }
+
+            70% {
+                opacity: 0;
+            }
+            
+            80%{
+                opacity: 0;
+            }
+            
+            85%{
+                opacity: 0;
+            }
+            
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__title-m {
+        font-size: 120px;
+        color: transparent;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        -webkit-text-stroke: 3px #fff;
+        margin-top: -350px;
+        transform: translateX(100%);
+        animation: titlem 2.5s forwards;
+
+        @keyframes titlem {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(0%);
+            }
+        }
+    }
+
+    &__box-icons {
+        margin-top: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 30px;
+    }
+
+    &__icon-link {
+        font-size: 35px;
+        color: #fff;
+        transition: 0.4s;
+
+        &:hover {
+            color: aqua;
+        }
+    }
+}

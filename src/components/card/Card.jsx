@@ -67,7 +67,7 @@ const Card = () => {
                     </div>
                     <div className="card__box-div">
                         <img src="16.png" alt="" className="card__box-img" />
-                        <h2 className="card__box-title">fsm distribution</h2>
+                        <h2 className="card__box-title">Prosofen</h2>
                         <p className="card__box-txt">Prosofen is an IT company focused on delivering cutting-edge technology solutions and services to help
                             businesses thrive in the digital age.</p>
                         <div className="card__box-icon">

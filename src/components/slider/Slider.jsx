@@ -70,7 +70,7 @@ const slider = () => {
                                     <div className="slider__title-box">
                                         <img src="21.png" className='slider__img' alt="" />
                                         <div>
-                                            <h2 className="slider__title">Shukhrat akhroljonov</h2>
+                                            <h2 className="slider__title">Shukhrat Akhroljonov</h2>
                                             <a href="#!" className="slider__link">CEO company “IX CAPITAL”</a>
                                         </div>
                                     </div>

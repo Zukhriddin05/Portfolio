@@ -50,7 +50,7 @@ const contact = () => {
                     <button className="contact__button nav__main-link">Send Message</button>
                 </div>
                 <div className="contact__line"></div>
-                <h2 className="contact__title">@ all Rights Reserved.</h2>
+                <h2 className="contact__title">©️ All Rights Reserved.</h2>
             </div>
         </div>
     )

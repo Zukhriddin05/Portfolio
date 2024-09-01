@@ -19,7 +19,7 @@ const slider = () => {
                 <div className="slider__box">
                     <>
                         <Swiper
-                            slidesPerView={3}
+                            slidesPerView={9}
                             spaceBetween={30}
                             loop={true}
                             autoplay={{

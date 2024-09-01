@@ -58,7 +58,7 @@ const Level = () => {
                     </div>
                     <div className="level__box">
                         <div className="level__box-title">
-                            <h2 className="level__title">pr manager</h2>
+                            <h2 className="level__title">Public relationship</h2>
                             <p className="level__txt">85%</p>
                         </div>
                         <div className="level__box-line85"></div>

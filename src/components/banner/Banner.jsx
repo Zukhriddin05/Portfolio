@@ -13,11 +13,11 @@ const Banner = () => {
       <div className="container">
         <div className="banner__box-first">
           <h2 className="banner__title-s">Hello I`M Zukhriddin</h2>
-          <h1 className="banner__title-l">A MARKETING &</h1>
+          <h1 className="banner__title-l">A PROJECT MANAGER &</h1>
         </div>
         <div className="banner__box-second">
           <img className='banner__box-img' src="2.png" alt="" />
-          <h1 className="banner__title-m"> Brand manager</h1>
+          <h1 className="banner__title-m"> & Brand manager</h1>
         </div>
         <div className="banner__box-icons">
           <a href="https://www.behance.net/zukhriddinakbarov/projects" className="banner__icon-link"><FaBehance /></a>
